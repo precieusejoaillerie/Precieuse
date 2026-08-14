@@ -8,11 +8,12 @@
  *
  * Entité légale : « Précieuse », atelier de joaillerie artisanale établi à
  * Bordeaux (France).
- * ⚠️ Cadre juridique FRANÇAIS posé, mais les mentions obligatoires (dénomination
- * sociale, forme juridique, SIRET, TVA intracommunautaire, adresse de l'atelier,
- * téléphone) sont encore des marqueurs « [à compléter] » → Emeline les renseigne
- * dans le Studio. À faire valider par un juriste (notamment CGV / droit de
- * rétractation sur le sur-mesure).
+ * Mentions obligatoires renseignées depuis le Kbis (2026) : PRECIEUSE, EURL au
+ * capital de 500 €, siège 30 rue Latapie 33650 La Brède, SIRET 107 679 151 00012
+ * (RCS Bordeaux), TVA non applicable (franchise, art. 293 B CGI), tél +33 6 23 18
+ * 58 87. RESTE : Emeline doit adhérer à un médiateur de la consommation (CGV) et
+ * confirmer son statut TVA avec son comptable. À faire valider par un juriste
+ * (notamment CGV / droit de rétractation sur le sur-mesure).
  */
 
 export type PortableSpan = { _type: 'span'; _key: string; text: string; marks: string[] }
@@ -49,14 +50,14 @@ const MENTIONS: LegalDoc = {
     ['h2', 'Informations légales'],
     [
       'p',
-      'Le site www.precieuse-joaillerie.com est édité par « Précieuse », atelier de joaillerie artisanale établi à Bordeaux (France).',
+      'Le site www.precieuse-joaillerie.com est édité par « Précieuse », atelier de joaillerie artisanale établi à La Brède, en Gironde (France).',
     ],
-    ['li', 'Dénomination sociale : [à compléter]'],
-    ['li', 'Forme juridique : [à compléter]'],
-    ['li', "Siège social / atelier : [adresse à compléter], Bordeaux, France"],
-    ['li', 'SIRET : [à compléter]'],
-    ['li', 'TVA intracommunautaire : [à compléter]'],
-    ['li', 'Téléphone : [à compléter]'],
+    ['li', 'Dénomination sociale : PRECIEUSE'],
+    ['li', 'Forme juridique : Société à responsabilité limitée à associé unique (EURL) au capital de 500 €'],
+    ['li', 'Siège social / atelier : 30 rue Latapie, 33650 La Brède, France'],
+    ['li', 'SIRET : 107 679 151 00012 — RCS Bordeaux 107 679 151'],
+    ['li', 'TVA : TVA non applicable, article 293 B du CGI (franchise en base)'],
+    ['li', 'Téléphone : +33 6 23 18 58 87'],
     ['li', 'Email : contact@precieuse-joaillerie.com'],
     ['li', 'Responsable de la publication : Emeline Le Ray'],
     ['h2', 'Hébergement'],
@@ -89,16 +90,16 @@ const CONFIDENTIALITE: LegalDoc = {
     ['h2', '1. Introduction'],
     [
       'p',
-      "La présente politique de confidentialité a pour but de vous informer de manière claire et transparente sur la manière dont « Précieuse » (atelier de joaillerie artisanale établi à Bordeaux, France ; dénomination sociale et SIRET [à compléter]) collecte, utilise et protège vos données personnelles lorsque vous utilisez le site www.precieuse-joaillerie.com.",
+      "La présente politique de confidentialité a pour but de vous informer de manière claire et transparente sur la manière dont « Précieuse » (atelier de joaillerie artisanale établi à La Brède, en Gironde, France ; dénomination sociale PRECIEUSE, SIRET 107 679 151 00012) collecte, utilise et protège vos données personnelles lorsque vous utilisez le site www.precieuse-joaillerie.com.",
     ],
     [
       'p',
       "En accédant à ce site, vous acceptez la présente politique. Elle peut être mise à jour à tout moment, en fonction des évolutions législatives ou techniques.",
     ],
     ['h2', '2. Identité du responsable du traitement'],
-    ['li', 'Précieuse — dénomination sociale : [à compléter]'],
-    ['li', 'Siège social / atelier : [adresse à compléter], Bordeaux, France'],
-    ['li', 'SIRET : [à compléter]'],
+    ['li', 'Précieuse — dénomination sociale : PRECIEUSE'],
+    ['li', 'Siège social / atelier : 30 rue Latapie, 33650 La Brède, France'],
+    ['li', 'SIRET : 107 679 151 00012'],
     ['li', 'Email : contact@precieuse-joaillerie.com'],
     ['li', 'Responsable du traitement : Emeline Le Ray'],
     ['h2', '3. Données collectées'],
@@ -176,7 +177,7 @@ const CGV: LegalDoc = {
     ['h2', '1. Objet'],
     [
       'p',
-      "Les présentes conditions générales de vente (CGV) régissent les ventes de bijoux et créations sur-mesure proposés par « Précieuse », atelier de joaillerie artisanale établi à Bordeaux (dénomination sociale [à compléter]). Toute commande implique l'acceptation pleine et entière des présentes CGV.",
+      "Les présentes conditions générales de vente (CGV) régissent les ventes de bijoux et créations sur-mesure proposés par « Précieuse » (SARL à associé unique au capital de 500 €, SIRET 107 679 151 00012, siège 30 rue Latapie, 33650 La Brède). Toute commande implique l'acceptation pleine et entière des présentes CGV.",
     ],
     ['h2', '2. Produits et créations sur-mesure'],
     [
@@ -225,12 +226,12 @@ const CGV: LegalDoc = {
     ['h2', '10. Droit applicable et litiges'],
     [
       'p',
-      "Les présentes CGV sont soumises au droit français. En cas de litige, une solution amiable sera recherchée en priorité ; à défaut, les juridictions françaises compétentes pourront être saisies. Conformément à la réglementation, le client peut recourir gratuitement à un médiateur de la consommation [médiateur à désigner — à compléter].",
+      "Les présentes CGV sont soumises au droit français. En cas de litige, une solution amiable sera recherchée en priorité ; à défaut, les juridictions françaises compétentes pourront être saisies. Conformément aux articles L.612-1 et suivants du Code de la consommation, le client peut recourir gratuitement à un médiateur de la consommation en vue de la résolution amiable du litige ; les coordonnées du médiateur compétent sont disponibles sur simple demande à contact@precieuse-joaillerie.com.",
     ],
     ['h2', '11. Contact'],
     [
       'p',
-      'Pour toute question relative à votre commande : contact@precieuse-joaillerie.com — téléphone [à compléter].',
+      'Pour toute question relative à votre commande : contact@precieuse-joaillerie.com — téléphone +33 6 23 18 58 87.',
     ],
   ]),
 }
