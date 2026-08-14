@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Sitemap statique — pages publiques (langues servies sur la même URL via cookie). -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://precieuse-five.vercel.app/</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/collection</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/collection/josephine</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/collection/aurore</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/collection/eugenie</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/collection/thelma</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/collection/louise</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/carnet</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/carnet/chemin-dune-bague</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/carnet/or-18kt-source-trace</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/carnet/journal-fonte-matinee-atelier</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/carnet/choisir-pierre-precieuse</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/carnet/rhodolite-pierre-oubliee</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/carnet/bague-portee-au-quotidien</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/creatrice</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/sur-mesure</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/mentions-legales</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/confidentialite</loc></url>
-  <url><loc>https://precieuse-five.vercel.app/cgv</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/collection</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/collection/josephine</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/collection/aurore</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/collection/eugenie</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/collection/thelma</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/collection/louise</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/carnet</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/carnet/chemin-dune-bague</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/carnet/or-18kt-source-trace</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/carnet/journal-fonte-matinee-atelier</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/carnet/choisir-pierre-precieuse</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/carnet/rhodolite-pierre-oubliee</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/carnet/bague-portee-au-quotidien</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/creatrice</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/sur-mesure</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/mentions-legales</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/confidentialite</loc></url>
+  <url><loc>https://precieuse-joaillerie.com/cgv</loc></url>
 </urlset>
