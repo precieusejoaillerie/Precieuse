@@ -80,10 +80,11 @@ export const PRODUCTS: Product[] = [
     image: '/images/real/eugenie-dessin.png',
     imageAlt:
       'Dessin de la bague Eugénie, trilogie à pierre marquise et griffes fines — atelier Précieuse, Bordeaux',
-    // Pas de photo « portée » (pièce dessinée) → placeholder, non seedé dans Sanity
-    // tant qu'Emeline n'a pas fourni la vraie photo. Le packshot garde le dessin.
-    photoPortee: '/images/placeholder-piece.svg',
-    packshot: '/images/bijoux-detoures/eugenie.png',
+    // Pièce dessinée (pas encore photographiée) : le grand visuel « porté » = le
+    // croquis d'atelier. Repli ici, mais piloté par Sanity (champ photoPortee),
+    // qu'Emeline remplacera par une vraie photo. Pas de packshot (petit dessin
+    // redondant retiré) ; réactivable en ajoutant un packshot dans Sanity.
+    photoPortee: '/images/real/eugenie-dessin.png',
   },
   {
     slug: 'thelma',

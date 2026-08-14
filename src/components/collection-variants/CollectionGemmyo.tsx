@@ -54,15 +54,21 @@ function InfoCell({ product, reversed }: { product: Product; reversed: boolean }
         {product.description}
       </p>
 
-      <div className="my-4 flex h-[130px] w-full items-center justify-center lg:my-5 lg:h-[160px]">
-        <img
-          src={product.packshot}
-          alt={product.packshotAlt ?? `${product.name} — ${product.tagline}`}
-          loading="lazy"
-          decoding="async"
-          className="max-h-full max-w-[190px] object-contain"
-        />
-      </div>
+      {/* Packshot détouré — optionnel : masqué si la pièce n'en a pas (ex. une
+          pièce dessinée dont le croquis tient déjà le grand visuel). */}
+      {product.packshot ? (
+        <div className="my-4 flex h-[130px] w-full items-center justify-center lg:my-5 lg:h-[160px]">
+          <img
+            src={product.packshot}
+            alt={product.packshotAlt ?? `${product.name} — ${product.tagline}`}
+            loading="lazy"
+            decoding="async"
+            className="max-h-full max-w-[190px] object-contain"
+          />
+        </div>
+      ) : (
+        <div className="my-5" aria-hidden="true" />
+      )}
 
       <Link
         to="/collection/$slug"
@@ -87,9 +93,9 @@ export function CollectionGemmyo({
       <CollectionIntro products={products} title={title} />
 
       {products.map((product, i) => {
-        // Grille = photo portée + packshot détouré : sans packshot, on n'affiche
-        // pas la rangée (évite une cellule info vide).
-        if (!product.packshot) return null
+        // On affiche la rangée dès qu'il y a un visuel « porté » OU un packshot.
+        // Sans aucun des deux → on saute (évite une cellule vide).
+        if (!product.packshot && !product.photoPortee) return null
         const reversed = i % 2 === 1
         return (
           <div
