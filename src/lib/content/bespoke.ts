@@ -105,7 +105,8 @@ export function bespokePageFallback(): BespokePageData {
         alt: m.sm_hero_photo_alt(),
       },
       video: '/images/video/ring-box.mp4',
-      poster: '/images/real/bague-pierre-precieuse-perle.webp',
+      // Poster = 1re image de la video (extraite via ffmpeg) → bascule invisible.
+      poster: '/images/video/ring-box-poster.webp',
     },
     marquee: [
       m.sm_marquee_1(),
